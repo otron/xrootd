@@ -24,7 +24,7 @@ xrdincdir = getenv( 'XRD_INCDIR' ) or '/usr/include/xrootd'
 
 # Get package version
 topdir = path.dirname(path.dirname(getcwd()))
-p = subprocess.Popen(['./genversion.sh', '--print-only'], stdout=subprocess.PIPE, cwd=topdir)
+p = subprocess.Popen(['./genversion.sh', '--print-only'], stdout=subprocess.PIPE)
 version, err = p.communicate()
 version = version.strip()
 
