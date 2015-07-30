@@ -41,8 +41,8 @@ print 'XRootD library dir: ', xrdlibdir
 print 'XRootD include dir: ', xrdincdir
 print 'Version:            ', version
 
-setup( name             = 'pyxrootd',
-       version          = version,
+setup( name             = 'testpyxrootd',
+       version          = '4',
        author           = 'XRootD Developers',
        author_email     = 'xrootd-dev@slac.stanford.edu',
        url              = 'http://xrootd.org',
